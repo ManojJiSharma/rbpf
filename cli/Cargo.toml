@@ -1,0 +1,14 @@
+[package]
+name = "rbpf_cli"
+version = "0.2.14"
+description = "CLI to test and analyze eBPF programs"
+authors = ["Gemachain Maintainers <maintainers@gemachain.foundation>"]
+repository = "https://github.com/gemacoin/rbpf"
+homepage = "https://gemachain.com/"
+keywords = ["BPF", "eBPF", "interpreter", "JIT"]
+edition = "2018"
+
+[dependencies]
+gemachain_rbpf = { path = "../" }
+test_utils = { path = "../test_utils/" }
+clap = "3.0.0-beta.2"

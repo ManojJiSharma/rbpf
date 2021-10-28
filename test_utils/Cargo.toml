@@ -1,0 +1,10 @@
+[package]
+name = "test_utils"
+version = "0.2.14"
+authors = ["Gemachain Maintainers <maintainers@gemachain.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+libc = "0.2"
+gemachain_rbpf = { path = "../" }
